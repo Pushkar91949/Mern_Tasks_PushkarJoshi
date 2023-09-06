@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Task-3</title>
+    <style>
+      body {
+        margin: 50px;
+      }
+
+      .links {
+        border: 2px solid black;
+        display: inline-block;
+        border-radius: 5px;
+        padding: 20px;
+        background-color: rgb(242, 233, 233);
+        text-align: center; /* Center the content */
+      }
+
+      .links p {
+        margin: 0; /* Remove default paragraph margin */
+      }
+
+      .links a {
+        color: rgb(81, 211, 183);
+        text-decoration: none; /* Remove underlines from links */
+      }
+
+      .links span {
+        font-weight: bold; /* Correct the typo 'bolder' to 'bold' */
+      }
+
+      /* Add some spacing between the links */
+      .links a:not(:last-child) {
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="links">
+      <p>Click any of the following links:</p>
+      <a href="#" target="_blank">Open in New Tab<span>|</span></a>
+      <a href="#">Open in Self Tab<span>|</span></a>
+      <a href="#">Open in Parent<span>|</span></a>
+      <a href="#">Open in Body<span>|</span></a>
+      <a href="https://mail.google.com/mail/u/0/">Send Email</a>
+    </div>
+  </body>
+</html>
